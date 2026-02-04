@@ -1,8 +1,8 @@
-# Neural Logic Gates from Scratch 🧠
+# Neural Logic Gates from Scratch 
 
 A pure Python implementation of fundamental logic gates using Neural Networks. This project explores the transition from simple linear classifiers to Multi-Layer Perceptrons (MLP) capable of solving non-linear problems.
 
-## 📋 Project Overview
+##  Project Overview
 
 Modern deep learning libraries often abstract away the "gears" of a neural network. This repository aims to demystify the process by building:
 1. **Single-Layer Perceptrons (SLP):** To solve linearly separable gates (AND, OR, NAND, NOR).
@@ -10,7 +10,7 @@ Modern deep learning libraries often abstract away the "gears" of a neural netwo
 
 ---
 
-## 🔬 Mathematical Background
+##  Mathematical Background
 
 ### The Linear Separability Problem
 Standard gates like **AND** and **OR** can be separated by a single linear decision boundary. However, **XOR** and **XNOR** cannot. 
@@ -25,19 +25,19 @@ To solve this, we utilize:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **No Libraries:** Built using only Python's standard `math` and `random` modules.
 - **Backpropagation Implementation:** Manual calculation of derivatives for weight updates.
 - **Error Tracking:** Displays training error convergence for all gates.
 - **Modular Design:** Easy to understand and extend.
 
-## 📂 File Structure
+##  File Structure
 
 - `logic_gates.py`: The main script containing the SLP and MLP classes and training logic.
 - `README.md`: Project documentation.
 
-## 🛠️ Implementation Highlights
+##  Implementation Highlights
 
 ### Single-Layer Perceptron (SLP)
 Used for basic gates. It uses a simple Step Function to determine the output.
@@ -50,7 +50,7 @@ Used for XOR/XNOR.
 - **Learning Rate:** 0.5
 - **Epochs:** 10,000
 
-## 📊 Expected Output
+##  Expected Output
 
 Upon running the script, the network will display final predictions and the average error.
 ```text
